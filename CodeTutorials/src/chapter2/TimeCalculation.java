@@ -11,8 +11,8 @@ public class TimeCalculation {
 		
 		// Output current time in format like HH:MM:SS
 		
-		// ms -> divide 1000 -> (results in s divide)
-		// 60 -> (results in minutes) divide 24 -> (results in hours)
+		// ms -> divide 1000 -> (results in seconds)
+		// divide 60 -> (results in minutes) divide 24 -> (results in hours)
 		
 		long currentHour = (currentTime / 1000 / 60 / 24) % 24;
 		long currentMinutes = (currentTime / 1000 / 60) % 60;
