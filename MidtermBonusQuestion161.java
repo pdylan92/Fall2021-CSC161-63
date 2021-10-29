@@ -1,5 +1,7 @@
 package exams;
 
+// You will have to update the package name to match with the package this sits in your folder in order to run the exact code.
+
 public class MidtermBonusQuestion161 {
 
 	/*
